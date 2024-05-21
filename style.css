@@ -1,0 +1,209 @@
+/* style.css */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar-first {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+  position: fixed;
+  width: 120rem;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.navbar-judul {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.navbar-judul span {
+  color: #ff6347;
+}
+
+.navbar-nav a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 20px;
+  font-size: 18px;
+  transition: color 0.3s;
+}
+
+.navbar-nav a:hover {
+  color: #ff6347;
+}
+
+.line-navbar {
+  border-top: 2px solid #ff6347;
+  margin-top: 10px;
+}
+
+.row {
+  text-align: center; /* Mengatur teks berada di tengah */
+  padding: 40px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.row h1 {
+  font-size: 36px;
+  color: #333;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.row h1 span {
+  color: red;
+}
+
+.row img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 20px auto 0; /* Center the image */
+}
+
+.row-img {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center; /* Mengatur teks berada di tengah */
+}
+
+.row-img img {
+  max-width: 150px;
+  height: auto;
+}
+
+.about {
+  background-color: #f9f9f9;
+  padding: 40px 20px;
+  text-align: center; /* Mengatur teks berada di tengah */
+}
+
+.about h1 {
+  font-size: 36px;
+  color: #333;
+  margin-bottom: 40px;
+}
+
+.about h1 span {
+  color: #ff6347;
+}
+
+.about .row h1 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.about .row p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #666;
+}
+
+.info-donasi {
+  background-color: #ff6347;
+  color: #fff;
+  padding: 40px 20px;
+  text-align: center; /* Mengatur teks berada di tengah */
+}
+
+.info-donasi h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.info-donasi h2 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.info-donasi p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.donation {
+  padding: 40px 20px;
+  text-align: center; /* Mengatur teks berada di tengah */
+}
+
+.donation .container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.donation h1 {
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+.row-info-rek {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  text-align: center; /* Mengatur teks berada di tengah */
+}
+
+.row-rekening {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  max-width: 200px;
+  transition: transform 0.3s;
+}
+
+.row-rekening img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.row-rekening h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.row-rekening p {
+  font-size: 16px;
+  color: #666;
+}
+
+.row-rekening:hover {
+  transform: scale(1.05);
+}
+
+.donation h3 {
+  font-size: 24px;
+  margin-top: 40px;
+  color: #333;
+}
+
+.info-verif {
+  font-size: 16px;
+  color: #666;
+  margin-top: 20px;
+}
+
+.margin-bottom {
+  height: 40px;
+}
